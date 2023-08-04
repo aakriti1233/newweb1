@@ -91,6 +91,24 @@
         .contact-form button:hover {
             background-color: #444;
         }
+
+        /* Mobile responsive styles */
+        @media only screen and (max-width: 600px) {
+            header {
+                padding: 0.5rem;
+            }
+            nav a {
+                font-size: 16px;
+            }
+            .contact-form {
+                max-width: 100%;
+            }
+            /* Adjust image size in the slideshow for mobile */
+            #slideshow img {
+                width: 100%;
+                height: auto;
+            }
+        }
     </style>
 </head>
 <body>
@@ -110,18 +128,9 @@
             <h1>I'M Aakriti Shrestha</h1>
             <p>I'm from New-Baneshwor, Kathmandu, Nepal</p>
             <div id="slideshow">
-                <img src="362922695_615568870705190_6681868657160021270_n.jpg" alt="Image 1"
-                height="500"
-                weidth="400">
-                
-                <img src="362905303_615568900705187_2994466660280645372_n.jpg" alt="Image 2"
-                height="500"
-                weidth="400">
-                
-                <img src="358146512_1538771516947384_4646799709694810778_n.jpg" alt="Image 3"
-                height="500"
-                weidth="400">
-                
+                <img src="362922695_615568870705190_6681868657160021270_n.jpg" alt="Image 1">
+                <img src="362905303_615568900705187_2994466660280645372_n.jpg" alt="Image 2">
+                <img src="358146512_1538771516947384_4646799709694810778_n.jpg" alt="Image 3">
             </div>
         </div>
     </section>
